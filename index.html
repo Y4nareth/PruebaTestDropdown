@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prueba de única selección</title>
+        <link rel="stylesheet" href="style.css">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+    <body>
+        <div class="app">
+            <h1>Única selección</h1>
+            <div class="quiz">
+                <h2 id="question">Pregunta 1</h2>
+                <form>
+                    <div class="control" id="control">
+                        <label>Cuando se mezcla azul y amarillo se consigue:</label>
+                        <select name="colors" id="colors">
+                            <option value="magenta">magenta</option>
+                            <option value="marron">marrón</option>
+                            <option value="verde">verde</option>
+                            <option value="naranja">naranja</option>
+                          </select>
+                    </div>
+                </form>
+                <button id="validate-btn">Confirmar</button>
+                <button id="next-btn" type="submit">
+                    <span>Siguiente</span>
+                </button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
